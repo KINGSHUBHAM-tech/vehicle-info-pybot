@@ -3,7 +3,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("7532994082:AAHVLyzK9coVgvCp-nwXL1MfPS0X57yZAmk")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_URL = "https://vehicle-details-api.vercel.app/details/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
