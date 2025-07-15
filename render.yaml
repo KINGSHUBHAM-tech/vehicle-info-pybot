@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: vehicle-info-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7532994082:AAHVLyzK9coVgvCp-nwXL1MfPS0X57yZAmk
